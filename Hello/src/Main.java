@@ -23,24 +23,29 @@ public class Main {
 
    //  scanner.close();
 
-   System.out.print("Informe um número de 1 até 7: ");
-   var number = scanner.nextInt();
+   // System.out.print("Informe um número de 1 até 7: ");
+   // var number = scanner.nextInt();
 
-   var message = switch(number){
-      case 1, 7 -> {
-          var day = number == 1 ? "Domingo" : "Sábado";
-          yield String.format("Hoje é %s, fim de semana!!!", day);
-      } 
-      case 2 -> "Segunda";
-      case 3 -> "Terça";
-      case 4 -> "Quarta";
-      case 5 -> "Quinta";
-      case 6 -> "Sexta";
-      default -> "Número inválido";
+   // var message = switch(number){
+   //    case 1, 7 -> {
+   //        var day = number == 1 ? "Domingo" : "Sábado";
+   //        yield String.format("Hoje é %s, fim de semana!!!", day);
+   //    } 
+   //    case 2 -> "Segunda";
+   //    case 3 -> "Terça";
+   //    case 4 -> "Quarta";
+   //    case 5 -> "Quinta";
+   //    case 6 -> "Sexta";
+   //    default -> "Número inválido";
       
-   };
+   // };
 
-   System.out.println(message);
+   // System.out.println(message);
+
+      for(var arg: args){
+         System.out.println(arg);
+      }
+
    }
 
 }
