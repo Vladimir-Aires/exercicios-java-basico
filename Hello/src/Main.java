@@ -42,10 +42,14 @@ public class Main {
 
    // System.out.println(message);
 
-      for(var arg: args){
-         System.out.println(arg);
-      }
-
+      // for(var arg: args){
+      //    System.out.println(arg);
+      // }
+      var i = 0;
+     while(!args[i].equals("false")){
+      System.out.println(args[i]);
+      i += 1;
+     }
    }
 
 }
